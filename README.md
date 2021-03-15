@@ -9,4 +9,4 @@ https://noahschnur.github.io/Weather-App/
 
 Screenshot:
 
-![Alt text](./assets/images/Weather-Dashboard.png?raw=true "Weather Dashboard")
+![Alt text](./Weather-Dashboard.png?raw=true "Weather Dashboard")
