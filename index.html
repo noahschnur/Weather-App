@@ -28,7 +28,13 @@
               <div class="card-body">
                 <form id="city-form" class="card-body">
                   <label class="form-label"></label>
-                  <input name="city" id="city" type="text" placeholder="City" class="form-input" />
+                  <input
+                    name="city"
+                    id="city"
+                    type="text"
+                    placeholder="City"
+                    class="form-input"
+                  />
                   <button id="weather" type="submit" class="btn btn-primary">
                     Get Weather
                   </button>
@@ -39,9 +45,7 @@
             <div class="card">
               <h3 class="card-header">Recently Looked At:</h3>
               <div id="history" class="card-body">
-                <ul id="show-history">
-                  
-                </ul>
+                <ul id="show-history"></ul>
               </div>
             </div>
           </div>
@@ -50,33 +54,46 @@
             <div>
               <h4 class="subtitle">Showing Weather For:</h4>
               <div id="current-weather-container">
-                <h1 id="city-name"></h1>
+                <p id="city-name"></p>
+                <p id="current-day"></p>
                 <img id="icon" />
-                <h2>Current wind speed (mhp)</h2>
+                <h2>Current Wind Speed (mhp)</h2>
                 <p id="wind-speed"></p>
                 <h2>Current Temperature (F)</h2>
                 <p id="temp"></p>
                 <h2>Current Humidity (%)</h2>
                 <p id="humid"></p>
+                <h2>UVI</h2>
+                <p id="uv"></p>
               </div>
-              <br>
+              <br />
               <div id="five-day-forcast-container">
                 <h2>5-Day Forcast</h2>
-                <img id="five-days"/>
+                <img id="five-days" />
               </div>
             </div>
           </div>
         </div>
       </div>
-
-
-
     </main>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js" integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ==" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"
+      integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ=="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+    ></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"
+      integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ=="
       crossorigin="anonymous"
     ></script>
     <script src="assets/js/app.js"></script>

@@ -9,3 +9,22 @@ h1 {
     justify-content: center;
     color: white;
 }
+
+ul {
+    list-style-type: none;
+}
+
+#city-name,
+#current-day {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#wind-speed,
+#temp,
+#humid,
+#uv,
+#show-history {
+    font-size: 18px;
+    font-weight: bold;
+}
